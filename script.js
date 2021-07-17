@@ -203,7 +203,7 @@ document.getElementById("Redvelvetbtn").onclick = function(){
     }
 }
 
-document.getElementById("buy").onclick = function(){
+    document.getElementById("buy").onclick = function(){
     if(layer>=5)
         candle.style.visibility = 'visible';
     document.getElementById('total').innerHTML = 'Total ----------- '+total;
